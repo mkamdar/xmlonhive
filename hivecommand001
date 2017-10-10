@@ -1,0 +1,5 @@
+export OXH_HOME=/home/ibietl/mk/mkamdar/oxh-4.5.0-cdh5.0.0
+
+echo "hive --auxpath $OXH_HOME/hive/lib/apache-xmlbeans.jar,$OXH_HOME/hive/lib/orai18n-mapping.jar,$OXH_HOME/hive/lib/oxh-mapreduce.jar,$OXH_HOME/hive/lib/woodstox-core-asl-4.2.0.jar,$OXH_HOME/hive/lib/orai18n-collation.jar,$OXH_HOME/hive/lib/orai18n-utility.jar,$OXH_HOME/hive/lib/oxquery.jar,$OXH_HOME/hive/lib/xmlparserv2_sans_jaxp_services.jar,$OXH_HOME/hive/lib/orai18n.jar,$OXH_HOME/hive/lib/oxh-hive.jar,$OXH_HOME/hive/lib/stax2-api-3.1.1.jar,$OXH_HOME/hive/lib/xqjapi.jar,$OXH_HOME/lib/oxh.jar,$OXH_HOME/lib/oxh-core.jar -i $OXH_HOME/hive/init.sql $1 $2 $3 $4"
+
+hive --auxpath $OXH_HOME/hive/lib/apache-xmlbeans.jar,$OXH_HOME/hive/lib/orai18n-mapping.jar,$OXH_HOME/hive/lib/oxh-mapreduce.jar,$OXH_HOME/hive/lib/woodstox-core-asl-4.2.0.jar,$OXH_HOME/hive/lib/orai18n-collation.jar,$OXH_HOME/hive/lib/orai18n-utility.jar,$OXH_HOME/hive/lib/oxquery.jar,$OXH_HOME/hive/lib/xmlparserv2_sans_jaxp_services.jar,$OXH_HOME/hive/lib/orai18n.jar,$OXH_HOME/hive/lib/oxh-hive.jar,$OXH_HOME/hive/lib/stax2-api-3.1.1.jar,$OXH_HOME/hive/lib/xqjapi.jar,$OXH_HOME/lib/oxh.jar,$OXH_HOME/lib/oxh-core.jar -i jan_addjars.q $1 $2
